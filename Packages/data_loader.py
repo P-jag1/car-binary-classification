@@ -7,7 +7,7 @@ import glob
 
 def load_data():
 # Cesta k datasetu
-    file_path = r'C:\Users\Petr\Desktop\Bakalářská práce\Neural_networks\deep_nn\cardataset'
+    file_path = r'C:\Users\Petr\Desktop\Neural_networks\deep_nn\cardataset'
     image_paths = glob.glob(path.join(file_path, '*.png'))
 
 # Přečtení obrázků a uložení dat do pole
@@ -37,7 +37,7 @@ def load_data():
 
 def load_test_data():
 # Cesta k datasetu
-    file_path = r'C:\Users\Petr\Desktop\Bakalářská práce\Neural_networks\deep_nn\testimages\test_file'
+    file_path = r'C:\Users\Petr\Desktop\Neural_networks\deep_nn\testimages\test_file'
     image_paths = glob.glob(path.join(file_path, '*.png'))
 
 # Načtení obrázků
